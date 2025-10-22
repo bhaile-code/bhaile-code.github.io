@@ -1,5 +1,6 @@
 # Claude Code local documentation
 CLAUDE.local.md
+.claude/
 
 # OS files
 .DS_Store
