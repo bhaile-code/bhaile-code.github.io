@@ -539,6 +539,49 @@ nav .container {
   font-weight: 500;
 }
 
+/* Project Links */
+.project-links {
+  display: flex;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-primary);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: var(--transition);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.project-link:hover {
+  background-color: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+  color: white;
+}
+
+.project-link svg {
+  flex-shrink: 0;
+}
+
+.project-link.case-study {
+  background-color: var(--accent-secondary);
+}
+
+.project-link.case-study:hover {
+  background-color: #6FA186;
+}
+
 /* ============================================
    SKILLS SECTION
    ============================================ */
